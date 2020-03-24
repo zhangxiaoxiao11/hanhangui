@@ -1,0 +1,73 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+btnImg{
+  width:20%;
+  height: 100px;
+}
+
+.logo{
+  flex:5;
+}
+
+.logo_img{
+  flex:5;
+}
+
+.setting{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left; 
+  margin-top: 5%;
+}
+
+.search
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  align-items: right;
+  width:50%;
+  height:50rpx;
+  background-color:whitesmoke;
+  margin-top: 1%;
+  border:1rpx solid whitesmoke;
+  border-radius: 5rpx;
+
+}
+
+/* 搜索框提示文字样式 */
+.search input
+{
+  font-size:27rpx;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left:30rpx; 
+}
+
+/* 搜索框小图标 */
+.search image
+{ 
+  width:40rpx;
+  height:40rpx;
+  padding-right:20rpx;
+}

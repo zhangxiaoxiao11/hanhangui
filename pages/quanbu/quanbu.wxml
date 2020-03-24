@@ -1,0 +1,13 @@
+<view class='setting' bindtap='jumpLogin'>
+  <text style="font-size:1rem">预览</text>
+  <image class='btnImg' src='../../images/yulan.jpg' style="width:50rpx;height:50rpx;"></image>
+  <text style="font-size:1rem">分享</text>
+  <image class='btnImg' src='../../images/fenxiang.jpg' style="width:50rpx;height:50rpx;"></image>
+  <!--  搜索框  -->
+  <view class='search'>
+    <input type='text' placeholder='输入你想要的内容' confirm-type='search' value="{{inputValue}}" bindinput='inputBind' bindconfirm='query'></input>
+    <image class="" src='../../images/sousuo.jpg' bindtap='query'></image>
+  </view>
+</view>
+<text style="color:#3b3b3b;text-decoration:underline;" decode="{{true}}">{{msg1}}</text>
+<text style="color:#eff3f6">{{msg2}}</text>
