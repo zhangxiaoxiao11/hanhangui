@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/quanbu/quanbu",
+    "pages/dingdan/dingdan",
+    "pages/zhanghu/zhanghu"
+  ],
+  "window": {
+    "backgroudColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#eb637e",
+    "navigationBarTitleText": "跳跳市场",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "list": [{
+        "pagePath": "pages/quanbu/quanbu",
+        "text": "全部商品",
+        "iconPath": "images/1.jpg",
+        "selectedIconPath": "images/2.jpg"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "text": "今日订单",
+        "iconPath": "images/3.jpg",
+        "selectedIconPath": "images/4.jpg"
+      },
+      {
+        "pagePath": "pages/zhanghu/zhanghu",
+        "text": "账户",
+        "iconPath": "images/5.jpg",
+        "selectedIconPath": "images/6.jpg"
+      }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
